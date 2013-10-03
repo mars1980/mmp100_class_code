@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html>
+     <head>
+        <title>A page aboout Layouts</title>
+        <meta name="description" content="Simple page using INTERNAL CSS">
+         <!--This begins the CSS-->
+         <style type="text/css">
+         #container{border:double;width:800px; height:auto;text-align:center;}
+         #header{height:75px; width:auto;background-color:SkyBlue;border:inherit;}
+         h1{text-align:center}
+         #menu{height:25px;width:auto;background-color:Silver;}
+         #content{height:auto;width:auto;background-color:grey;padding:30px; float:left;text-align:left;}
+         #footer{background-color:#WhiteSmoke;text-align:center; height=200px;}
+         </style>
+         <!--this ends the css-->
+     </head>
+<!---------------Using INTERNAL CSS w/ DIVS------------------------------------------------------------------>
+     <body>
+     <div id="container">
+            <div id="header">
+            <h1>This is a heading</h1>
+            </div>
+
+            <div id="menu">
+                <span style="padding:50px;"> <a href="">Page 1</a></span>
+                <span style="padding:50px;"> <a href="">Page 2</a></span>
+                <span style="padding:50px;"> <a href="">Page 3</a></span>             
+            </div>
+            
+            <div id="content">
+                <!--ALL OF MY WEBSITE CONTENT WOULD GO INSIDE HERE-->
+                </p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                It has survived not only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                Aldus PageMaker including versions of Lorem Ipsum.</p>
+                
+            </div>
+            
+            <div id="footer">Copyright © </div>
+    </div>
+     <!--end container that holds everything-->
+    </body>
+    </html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Averia+Serif+Libre:700' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+	video{width:105%;overflow: hidden}
+	html{margin: 0; padding:0;}
+	#container
+	{
+	position: absolute;
+    top: -100px;
+    left: 0;
+    width: 120%;
+    height: 120%;
+    overflow: hidden;
+    z-index: -1;
+	}
+
+	h1{width:25%;margin: 20% auto;text-align: center;font-family: 'Averia Serif Libre', cursive;font-size: 42px;color: white}
+	</style>
+</head>
+<body>
+<div id="container">
+<video loop autoplay muted>
+  <source src="street.mp4" type="video/mp4" >
+  <source src="street.f4v" type="video/f4v">
+  <object data="street.mp4">
+	<embed src="street.f4v" >
+  </object> 
+</video>
+</div>
+<h1>you are being watched.</h1>
+
+
+</body>
+</html>
